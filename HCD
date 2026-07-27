@@ -7,3 +7,5 @@ for(i=1;i<=n1;i++){
     }
 }
 console.log(hcd)
+
+
