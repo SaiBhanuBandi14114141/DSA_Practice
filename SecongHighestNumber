@@ -1,0 +1,19 @@
+def secondHighestNumber(data):
+    highestNumber = 0
+    secondHighestNumber = 0
+    for i in data:
+        if i.isalpha() == False:
+            if int(highestNumber) <= int(i) and int(secondHighestNumber) <= int(i):
+                if int(highestNumber) < int(secondHighestNumber):
+                    secondHighestNumber = highestNumber
+                highestNumber = i
+            elif int(secondHighestNumber) <= int(i):
+                secondHighestNumber = i
+    
+    if(secondHighestNumber != 0):
+        return secondHighestNumber
+    else:
+        return -1
+
+
+print(secondHighestNumber("dfa12321afd"))
