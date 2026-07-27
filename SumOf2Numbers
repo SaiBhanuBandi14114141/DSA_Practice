@@ -1,0 +1,8 @@
+// Sum of 2 numbers
+
+function sum(firstNumber, secondNumber) {
+    return firstNumber + secondNumber
+    // return firstNumber - secondNumber
+}
+
+console.log(sum(3,4))
