@@ -1,0 +1,9 @@
+def findTheLargestNumber(data):
+    largestNumber = data[0]
+    for i in arr:
+        if i > largestNumber:
+            largestNumber=i
+    return largestNumber
+    
+arr = [5, -2, 3, -4, 8]
+print(findTheLargestNumber(arr))
