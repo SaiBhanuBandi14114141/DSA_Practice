@@ -1,0 +1,9 @@
+def findTheSmallestNumber(data):
+    smallestNumber = data[0]
+    for i in arr:
+        if i < smallestNumber:
+            smallestNumber=i
+    return smallestNumber
+    
+arr = [5, -2, 3, -4, 8]
+print(findTheSmallestNumber(arr))
